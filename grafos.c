@@ -59,6 +59,15 @@ void imprimeGrafo(Grafo *G){
   }
 }
 
-void main(){
-  
+int main(){
+  Grafo *novoGrafo=criaGrafo(4);
+  insereAresta(novoGrafo,0,1);
+  insereAresta(novoGrafo,1,2);
+  insereAresta(novoGrafo,0,2);
+  insereAresta(novoGrafo,2,3);
+  insereAresta(novoGrafo,1,3);
+  imprimeGrafo(novoGrafo);
+  removeAresta(novoGrafo,1,3);
+  imprimeGrafo(novoGrafo);
+  return 0;
 }
