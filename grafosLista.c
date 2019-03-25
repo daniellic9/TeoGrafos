@@ -85,6 +85,9 @@ int grauVertice(Grafo *G, int v){
   return cont;
 }
 
+//Sequencia de graus de dois grafos é identica?
+
+
  int main() {
    Grafo *G=criaGrafo(5);
    insereAresta(G,0,1);
