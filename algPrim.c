@@ -3,6 +3,7 @@ prim(Grafo *G, w, int r){
   //vetor de estimativas - e
   // q - heap mínimo (conjuto de vértices do gráfico)
   //inicio
+  //Initialize a for loop
   for(v=0; v<G->V; v++){
       e[v]=-1;
       p[v]=0;
